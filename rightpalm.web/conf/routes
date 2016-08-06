@@ -4,7 +4,10 @@
 
 module:testrunner
 
-GET     /                                       App.Index
+GET     /                                       Home.Index
+GET     /login                                  Home.Login
+GET     /chart                                  Chart.Index
+GET     /product                                Product.Index
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
