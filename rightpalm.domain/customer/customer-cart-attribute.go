@@ -1,6 +1,6 @@
 package customer
 
-import "rightpalm.domain/product"
+import "rightpalm/rightpalm.domain/product"
 
 type CustomerCartAttribute struct {
 	ID       int

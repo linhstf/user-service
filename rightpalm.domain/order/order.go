@@ -3,9 +3,9 @@ package order
 import (
 	"time"
 
-	"rightpalm.domain/customer"
+	"rightpalm/rightpalm.domain/customer"
 
-	"rightpalm.domain/location"
+	"rightpalm/rightpalm.domain/location"
 )
 
 // Order determines order information of customer

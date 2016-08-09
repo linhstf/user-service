@@ -1,6 +1,6 @@
 package order
 
-import "rightpalm.domain/product"
+import "rightpalm/rightpalm.domain/product"
 
 type OrderProductAttribute struct {
 	ID                 int

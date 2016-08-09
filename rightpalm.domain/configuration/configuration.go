@@ -14,3 +14,7 @@ type Configuration struct {
 	UseFunction string
 	SetFunction string
 }
+
+func getFBConfig() {
+
+}
