@@ -1,4 +1,4 @@
-package dataAccess
+package dbcontext
 
 type BaseRepository struct {
 }

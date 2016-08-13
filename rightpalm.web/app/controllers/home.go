@@ -1,6 +1,9 @@
 package controllers
 
-import "github.com/revel/revel"
+import (
+	"github.com/revel/revel"
+	"rightpalm/rightpalm.serviceagent/facebook"
+)
 
 // Home struct is a struct of Home controller
 type Home struct {
@@ -14,5 +17,7 @@ func (c Home) Index() revel.Result {
 
 func (c Home) Login() revel.Result {
 	isNotDisplayMenu := true
-	return c.Render(isNotDisplayMenu)
+	oauthURL := facebook.GenerateUrl()
+
+	return c.Render(isNotDisplayMenu, oauthURL)
 }

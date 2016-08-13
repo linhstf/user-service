@@ -2,13 +2,13 @@ package location
 
 type AddressBook struct {
     ID int
-    Customer customer.Customer
+    CustomerID string
     Company string
     Street string
     Suburb string
     Postcode string
     City string
     State string
-    Country Country
-    Zone Zone
+    CountryID int
+    ZoneID string
 }
