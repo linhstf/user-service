@@ -1,11 +1,9 @@
 package order
 
-import "rightpalm.domain/product"
-
 type OrderProductAttribute struct {
 	ID                 int
-	Order              Order
-	Product            product.Product
+	OrderID            string
+	ProductID          string
 	ProductOption      string
 	ProductOptionValue string
 	OptionValuePrice   float32

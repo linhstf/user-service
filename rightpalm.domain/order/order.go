@@ -1,48 +1,43 @@
 package order
 
-import (
-	"time"
-
-	"rightpalm.domain/customer"
-
-	"rightpalm.domain/location"
-)
+import "time"
 
 // Order determines order information of customer
 type Order struct {
-	ID int
+	ID string
 
-	Customer              customer.Customer
-	CustomerName          string
-	CustomerAddress       string
-	CustomerSuburb        string
-	CustomerCity          string
-	CustomerPostcode      string
-	CustomerState         string
-	CustomerCountry       string
-	CustomerPhoneNumber   string
-	CustomerEmail         string
-	CustomerAddressFormat location.AddressFormat
+	CustomerID              string
+	CustomerName            string
+	CustomerAddress         string
+	CustomerSuburb          string
+	CustomerCity            string
+	CustomerPostcode        string
+	CustomerState           string
+	CustomerCountry         string
+	CustomerPhoneNumber     string
+	CustomerEmail           string
+	CustomerAddressFormatID int
 
-	DeliveryAddress       string
-	DeliverySuburb        string
-	DeliveryCity          string
-	DeliveryPostcode      string
-	DeliveryState         string
-	DeliveryCountry       string
-	DeliveryPhoneNumber   string
-	DeliveryEmail         string
-	DeliveryAddressFormat location.AddressFormat
+	DeliveryAddress         string
+	DeliverySuburb          string
+	DeliveryCity            string
+	DeliveryPostcode        string
+	DeliveryState           string
+	DeliveryCountry         string
+	DeliveryPhoneNumber     string
+	DeliveryEmail           string
+	DeliveryAddressFormatID int
 
 	CCType         string
 	CCOwner        string
 	CCNumber       string
 	CCExpires      string
+	CreatedDate    time.Time
 	UpdatedDate    time.Time
 	PurchasedDate  time.Time
 	ShippingCost   float32
 	ShippingMethod string
-	Status         string
+	StatusID       int
 	FinishedDate   time.Time
 	Comment        string
 	Cuurency       string

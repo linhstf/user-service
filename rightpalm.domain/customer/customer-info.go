@@ -2,7 +2,7 @@ package customer
 
 import "time"
 
-type CustomerInfo struct {
+type CustomerLoginInfo struct {
 	ID            int
 	LastLogin     time.Time
 	NumberOfLogin int

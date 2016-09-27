@@ -8,7 +8,7 @@ type Configuration struct {
 	Key         string
 	Value       string
 	Description string
-	Group       ConfigurationGroup
+	GroupID     int
 	Order       int
 	UpdatedDate time.Time
 	UseFunction string

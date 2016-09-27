@@ -2,7 +2,7 @@ package location
 
 type Zone struct {
     ID int
-    Country Country
+    CountryID int
     Code string
     Name string
 }

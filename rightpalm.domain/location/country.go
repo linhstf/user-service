@@ -5,5 +5,5 @@ type Country struct {
     Name string
     ISOCode2 string
     ISOCode3 string
-    AddressFormat AddressFormat
+    AddressFormatID int
 }

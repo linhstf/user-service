@@ -1,11 +1,11 @@
 package customer
 
-import "time"
+import t "time"
 
 type CustomerCart struct {
-	ID         int
-	Customer   Customer
-	Quantity   int
-	FinalPrice float32
-	AddedDate  time.Time
+	ID          int
+	CustomerID  string
+	Quantity    int
+	FinalPrice  float32
+	CreatedDate t.Time
 }
