@@ -3,7 +3,7 @@ This application has been built-in Golang and it support for you full user servi
 
 #Reprequisite
 1. Golang, find out more at https://golang.org/
-2. Revel
+2. Gin
 3. Rethink(NoSQL)
 
 #IDE
