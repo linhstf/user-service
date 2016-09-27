@@ -1,5 +1,5 @@
-# Welcome to rightpalm
-This application's used Revel that is a web framework has been built-in Go lang[https://golang.org/]. The point of this project is develop a tool to help our user easily to manage their product as Facebook's photo.
+# Welcome to User Service
+This application has been built-in Golang and it support for you full user services such as authenticate with social network, query and command on user boundary.
 
 #Reprequisite
 1. Golang, find out more at https://golang.org/
